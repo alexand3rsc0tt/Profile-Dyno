@@ -1,0 +1,88 @@
+<!--Carousel-->
+<div id="myCarousel" class="carousel slide">
+	<!-- If this doesn't work, paste this data-rider="carousel" after "carousel"-->
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0"></li>
+    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="item">
+      <img src="/assets/destiny.jpg" alt="Destiny" class="img-responsive">
+    </div>
+
+    <div class="item active">
+      <img src="/assets/530589_546899895337228_974372546_n.jpg" alt="Drumming" class="img">
+    </div>
+
+    <div class="item">
+      <img src="/assets/LG_G3_screen.jpg" alt="Phones" class="img">
+    </div>
+  </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+<h3 class="about-h3">About</h3>
+
+<p class="about-p">
+  My name is Alex and I'm 21 years old I graduated high school in 2012 and tried
+	one year of college, I didnt enjoy traditional schooling. I'm starting web
+	development. I have always been into tech. I started off
+	rooting phones and editing roms. And now I'm currently at DevPointLabs learning
+	Ruby on Rails which is a whole new language for me.
+</p>
+
+<h3 class="about-h3">Things I enjoy doing</h3>
+<li class="about-li">Drumming</li>
+<li class="about-li">Video games</li>
+<li class="about-li">Rooting android devices</li>
+<li class="about-li">Web development</li>
+
+<h3 class="about-h3">More about me</h3>
+
+<p class="about-p">
+  I'm a drummer and my drumming carrer has taken me to march with
+	Riverside City College also known to be "Hollywood's Band". In the year 2012 I did
+	a music video with Travis Barker and Yellow Wolf and a commercial for the game
+	Just Dance 4. That gave me the chance to participate in the Pasadena Rose parade
+	of 2013. The following new years I traveled with the band to London and Madrid to
+	march in the London New Years parade and Madrids Cabalgata de Reyes parade.
+</p>
+
+<div class= "youtube">
+  <iframe width="853" height="480" src="//www.youtube.com/embed/NGmOhnlILdw" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<h3 class="about-h3">If you would like to contact me please email me or tweet me</h3>
+<div class="list">
+  <ul class="list-unstyled about-list">
+    <li class="contact-li">
+      <%= mail_to 'alex.burton1993@gmail.com' do %>
+        <i class ="fa fa-envelope">&nbsp; alex.burton1993@gmail.com</i>
+      <% end %>
+    </li>
+    <li class="contact-li">
+      <%= link_to 'http://twitter.com/intent/tweet?screen_name=Alexand3rsc0tt' do %>
+        <i class ="fa fa-twitter-square">&nbsp; @Alexand3rsc0tt</i>
+      <% end %>
+    </li>
+    <li class="contact-li">
+      <%= link_to 'https://github.com/alexand3rsc0tt' do %>
+        <i class ="fa fa-github-alt">&nbsp; github.com/alexand3rsc0tt</i>
+      <% end %>
+    </li>
+    <li class="contact-li">
+      <%= link_to 'https://linkedin.com/in/alexand3rsc0tt' do %>
+        <i class ="fa fa-linkedin-square">&nbsp; linkedin.com/in/alexand3rsc0tt</i>
+      <% end %>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,50 @@
+// Place all the styles related to the Static controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.about-h3 {
+  font-size: 1.75em;
+  padding: 0 15px;
+  color: white;
+}
+
+.about-p {
+	padding: 0 32.5px;
+	font-size: 1.15em;
+  color: white;
+}
+
+.about-li {
+	padding-left: 32.5px;
+  color: white;
+}
+
+.about-ul {
+	padding: 0 15px;
+  color: white;
+}
+
+.youtube {
+  padding-left: 15px;
+}
+
+.contact-li {
+  font-size: 1.25em;
+  padding-left: 32.5px;
+}
+
+.about-list > .contact-li > a {
+  line-height: 25px;
+  color: white;
+}
+
+.about-list > .contact-li > a:hover,
+.about-list > .contact-li > a:focus {
+  color: #fff;
+  background-color: #aeacac;
+}
+
+// Social
+.twitter-timeline {
+  margin-left: 15px;
+}
